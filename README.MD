@@ -127,6 +127,24 @@ Si le port 8080 est déjà utilisé, la publication peut échouer. Dans ce cas, 
 
 Le service accepte une requête SOAP pour chaque opération et renvoie le résultat calculé dans une réponse SOAP. ReadyAPI/SoapUI affiche la requête envoyée et la réponse reçue, ce qui permet de vérifier le fonctionnement du client et du serveur.
 
-## 10. Conclusion
+## 10. Résultats en captures
+
+Le test de `division(3, 5)` retourne `0.6`.
+
+![Résultat de division dans ReadyAPI](image/division.png)
+
+Le test de `multiplication(3, 5)` retourne `15.0`.
+
+![Résultat de division dans ReadyAPI](image/multiplication.png)
+
+Le test de `soustraction(3, 5)` retourne `-2.0`.
+
+![Résultat de division dans ReadyAPI](image/soustraction.png)
+
+Le test de `somme(3, 5)` retourne `8.0`.
+
+![Résultat de division dans ReadyAPI](image/somme.png)
+
+## 11. Conclusion
 
 Ce TP illustre les rôles complémentaires du contrat WSDL/XSD, du serveur SOAP Java et du client ReadyAPI/SoapUI. Il montre aussi la différence entre publier un service à une adresse connue et l’enregistrer dans un annuaire SOA : un annuaire UDDI réel n’est pas configuré dans ce projet.
